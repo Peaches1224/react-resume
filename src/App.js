@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Video from "./Assets/video.mp4"
+import TopHeader from "./components/TopHeader";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    
+      <div className="container mx-auto" >
+        
+        <Router>
+          <TopHeader />
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+          <Footer />
+        </Router>
+      </div>
+      <video className="-z-50" autoPlay muted loop id="myVideo">
+        <source src={Video} type="video/mp4" />
+      </video>
     </div>
+   
   );
 }
 
