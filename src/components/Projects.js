@@ -60,9 +60,9 @@ export default function Projects() {
                 <p className='mt-4'> I created this resume to show case the different elements of HTML and CSS. I wanted to show my creativity in design and how much fun I had created this project. I had a lot of fun with this project adn I hope that you have fun with it too! </p>
                 <img />
                
-                <a className='border-2 rounded-md pt-1 block max-w-xs mt-7 mb-4 pl-7 text-2xl font-mono flex flex-col space-y-4 text-slate-400 text-slate-500/100' href='https://github.com/Peaches1224/My-Resume'>GitHub</a>
+                  <a className='border-2 rounded-md pt-1 block max-w-xs mt-7 mb-4 pl-7 text-2xl font-mono flex flex-col space-y-4 text-slate-400 text-slate-500/100  hover:text-blue-600' href='https://github.com/Peaches1224/My-Resume'>GitHub</a>
                 
-                  <a className='border-2 rounded-md pt-1 block max-w-xs mt-4 mb-4 pl-7 text-2xl font-mono flex flex-col space-y-4 text-slate-400 text-slate-500/100' href='https://my-resume-two-zeta.vercel.app/index.html'>Go To Website</a>
+                  <a className='border-2 rounded-md pt-1 block max-w-xs mt-4 mb-4 pl-7 text-2xl font-mono flex flex-col space-y-4 text-slate-400 text-slate-500/100 hover:text-blue-600 ' href='https://my-resume-two-zeta.vercel.app/index.html'>Go To Website</a>
               </div>
               
             </div>
