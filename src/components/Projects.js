@@ -8,8 +8,8 @@ export default function Projects() {
       <div class="flex flex-col">
         <div class="flex  ">
           <div>
-            <h3 className='text-4xl'>SF Giants Moch Website</h3>
-            <p className='mt-4'>This is a mock webiste of the San Franscio Giants. San Francisco Giants is an American professional
+            <h3 className='text-4xl'>SF Giants Mock Website</h3>
+            <p className='mt-4'>This is a mock website of the San Franscio Giants. San Francisco Giants is an American professional
               baseball
               team based in San Francisco. The Giants have won eight World Series
               titles and 23 National League (NL) pennants. The franchise that would become the Giants was established

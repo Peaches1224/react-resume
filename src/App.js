@@ -11,10 +11,8 @@ import Education from "./components/Education";
 
 function App() {
   return (
-    <div>
-    
-      <div className="container mx-auto" >
-        
+    <div className="my-container">
+      <div className="container mx-auto my-content" >
         <Router>
           <TopHeader />
           <Header />
@@ -24,15 +22,15 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/education" element={<Education />} />
           </Routes>
-          <Footer />
         </Router>
       </div>
       <video className="-z-50" autoPlay muted loop id="myVideo">
         <source src={Video} type="video/mp4" />
       </video>
+      <Footer />
     </div>
-   
   );
 }
 
 export default App;
+
