@@ -13,7 +13,7 @@ export default function TopHeader() {
           <div className='text-2xl font-mono flex flex-col space-y-4 text-slate-400 text-slate-500/100
         hover:text-blue-600'>
         <h4>
-          <Link to="https://promineotech.com/">Front End Web Developer</Link>  
+          <Link to="https://promineotech.com/">Marketing Coordinator/ Web Developer</Link>  
         </h4>
       </div>
     </div>

@@ -27,7 +27,7 @@ export default function Projects() {
         <div class="flex-initial mt-7 ">
           <div>
           <div>
-            <h3 className='text-4xl'>Tic tac Toe</h3>
+            <h3 className='text-4xl'>Tic Tac Toe</h3>
               <p className='mt-4'>
                 Tic Tac Toe is a fun game that you can play on your free time and or enjoy with friends. I had a lot of fun creating this game I hope you have a great time playing!
             </p>
