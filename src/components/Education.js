@@ -18,7 +18,7 @@ export default function Education() {
                 <h5 className='mb-5 text-2xl'>Visual Communications</h5>
                 <p className='text-lg'>
 
-                    Currently getting my certification in Python and Java to become a full stack developer, while getting my prerequisites for my major. 
+                    Currently getting my certification in Adobe Illustrator and Photoshop, while getting my prerequisites for my Visual Communications major. 
                 </p>
 
             </div>
